@@ -28,12 +28,6 @@ var Game = Class.extend({
   		hpBarOne.style.display = "inline";
   		var hpBarTwo = document.getElementById("hpBar2");
   		hpBarTwo.style.display = "inline"; 
-  		// var nrgBarOne = document.getElementById("nrg1");
-  		// nrgBarOne.style.display = "inline";
-  		// var nrgBarTwo = document.getElementById("nrg2");
-  		// nrgBarTwo.style.display = "inline";
-  		// var clockFrame = document.getElementById("container");
-  		// clockFrame.style.display = "inline";
 	},
 	
 	draw: function () {
