@@ -1,0 +1,79 @@
+body {
+	background-color: #424242;
+}
+
+#background{
+	width: 1200px;
+  height: 600px;
+	position:absolute;
+	margin-left: 60px;
+	background-image: url("images/backgrounds/menuBackground.gif");
+}
+
+#game-canvas {
+	width: 1200px;
+	height: 600px;
+	position:absolute;
+	margin-left: 60px;
+}
+
+#start{
+	position:absolute;
+	left: 548px;
+	top: 415px;
+	width:500px;
+	height:250px;
+	background-image: url('images/Fight.png');	
+	background-repeat: no-repeat;
+}
+
+#hpBar1{ 	
+	width:520px;
+	height:35px;
+	border:2px solid black;
+	float:left;
+	margin-left:20px;
+	margin-top:20px;
+	
+}
+
+#hpLeft1{
+	width:520px;
+	height:35px;
+	background-color:yellow;
+	float:left;
+	
+} 
+
+#lostHP1{
+	width:0px;
+	height:35px;
+	background: red;
+	float:right;
+	
+} 
+
+
+#hpBar2{ 	
+	width:520px;
+	height:35px;
+	border:2px solid black;
+	float: right;
+	margin-right:20px;
+	margin-top:20px;
+}
+
+#hpLeft2{
+	width:520px;
+	height:35px;
+	background-color: yellow;
+	float:right;
+	
+} 
+
+#lostHP2{
+	width:0px;
+	height:35px;
+	background: red;	
+	float:left;	
+} 
